@@ -19,7 +19,7 @@
 <?php
 include_once('randomizer.php'); ?>
     </span>
-<center><video id="videoPlayer" src="<?=$content?>" type="video/mp4" autoplay autobuffer controls></video></center>
+<center><video id="videoPlayer" src="<?=$content?>" type="video/mp4" autoplay autobuffer></video></center>
             <script type="text/javascript">
                 var nextVideo = mdlol();
                 function mdlol()
